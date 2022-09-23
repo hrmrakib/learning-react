@@ -81,6 +81,46 @@ const products = [
       count: 70,
     },
   },
+  {
+    id: 7,
+    title: "Solid Gold Petite Micropave ",
+    price: 168,
+    description:
+      "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    category: "jewelery",
+    image: "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+    rating: {
+      rate: 3.9,
+      count: 70,
+    },
+  },
+  {
+    id: 8,
+    title: "Solid Gold Petite Micropave ",
+    price: 168,
+    description:
+      "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    category: "jewelery",
+    image: "https://fakestoreapi.com/img/61sbMiUnoGL._AC_UL640_QL65_ML3_.jpg",
+    rating: {
+      rate: 3.9,
+      count: 70,
+    },
+  },
+  {
+    id: 9,
+    title: "Solid Gold Petite Micropave ",
+    price: 168,
+    description:
+      "Satisfaction Guaranteed. Return or exchange any order within 30 days.Designed and sold by Hafeez Center in the United States. Satisfaction Guaranteed. Return or exchange any order within 30 days.",
+    category: "jewelery",
+    image:
+      "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+    rating: {
+      rate: 3.9,
+      count: 70,
+    },
+  },
 ];
 
 function Product() {
@@ -99,22 +139,6 @@ function Product() {
         </div>
       ))}
     </>
-
-    // <div className="product">
-    //   <img src={images} alt="" />
-    //   <div className="product-details">
-    //     <h3>Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops</h3>
-    //     <p>Price: $109.95</p>
-    //     <p>Rating: 3.9/5</p>
-    //     <p>
-    //       Description: Your perfect pack for everyday use and walks in the
-    //       forest. Stash your laptop (up to 15 inches) in the padded sleeve, your
-    //       everyday
-    //     </p>
-
-    //     <button>add to cart</button>
-    //   </div>
-    // </div>
   );
 }
 
